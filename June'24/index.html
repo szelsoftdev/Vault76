@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Happy Kids Day!!!</title>
+</head>
+<body>
+    <h1>HAPPY KIDS DAY ALICE!!!</h1>
+    <p>Dear Alice,</p>
+    <p>Happy Kids Day!</p>
+    <p>I know you guys don't celebrate it that much, but I hope you like this virtual card.</p>
+    <p>believe it or not, this is all made with computer code!!!</p>
+    <p>Have a lovely day,</p>
+    <p>From your friend,</p>
+    <p>Janusz</p>
+
+    <div class="heart">
+        <pre id="somethin'">
+ <div>          ____       ____ </div>
+ <div>         /    \     /    \</div>
+ <div>        /      \   /      \</div>
+ <div>       /   ...  \ /   ...  \</div>
+ <div>      /    <div class="highlight">O</div>     |     O    \</div>
+ <div>     /                       \</div>
+ <div>    /                         \</div>
+ <div>   |                           |</div>
+ <div>    \            >            / </div>
+ <div>     \                       /</div>
+ <div>      \                     /</div>
+ <div>       \                   /</div>
+ <div>        \     \     /     /</div>
+ <div>         \     \   /     /</div>
+ <div>          \     \ /     /</div>
+ <div>           \     -     /</div>
+ <div>            \         /</div>
+ <div>             \       /</div>
+ <div>              \     /</div>
+ <div>               \   /</div>
+ <div>                \ /    </div>
+ <div>                /|\</div>
+ <div>               / | \
+                          
+         </pre> 
+         <script>
+            const highlightElement = document.querySelector('.highlight');
+            let toggle = true;
+ 
+            function updateHeart() {
+                highlightElement.textContent = toggle ? '-' : 'O';
+                toggle = !toggle;
+            }
+            setInterval(updateHeart, 750);
+ 
+         </script>
+    </div>
+</body>
+
