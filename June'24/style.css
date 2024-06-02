@@ -1,5 +1,9 @@
 h1{
     color: orange;
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
 }
 .heart{
     color: red;
