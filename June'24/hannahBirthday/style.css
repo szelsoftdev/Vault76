@@ -1,0 +1,32 @@
+h1{
+    color: orange;
+    margin-left: 20px;
+}
+.heart{
+    color: red;
+    font-size: 16px;
+}
+
+.highlight{
+    color: red;
+    display: inline-block;
+    width: 1ch;
+}
+pre{
+    font-size: 16px;
+    line-height: 0.7;
+    white-space: pre;
+}
+body {
+    height: 100vh;
+    margin: 0;
+}
+.text{
+    margin-left: 50px;
+}
+  .cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday Mama!!!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="text">
+        <h1>HAPPY BIRTHDAY MAMA!!!</h1>
+        <p>Dear Mama,</p>
+        <p>Happy Birthday!!!</p>
+        <p>I bet you are looking forward to Disney World!</p>
+        <p>Have a lovely day,</p>
+        <p>Love from Alice.</p>
+    </div>
+    
+    <div class="heart">
+        <pre id="somethin'">
+<div>          ____       ____ </div>
+<div>         /    \     /    \</div>
+<div>        /      \   /      \</div>
+<div>       /   ...  \ /   ...  \</div>
+<div>      /    <div class="highlight">O</div>     |     O    \</div>
+<div>     /                       \</div>
+<div>    /                         \</div>
+<div>   |                           |</div>
+<div>    \            >            / </div>
+<div>     \                       /</div>
+<div>      \                     /</div>
+<div>       \                   /</div>
+<div>        \     \     /     /</div>
+<div>         \     \   /     /</div>
+<div>          \     \ /     /</div>
+<div>           \     -     /</div>
+<div>            \         /</div>
+<div>             \       /</div>
+<div>              \     /</div>
+<div>               \   /</div>
+<div>                \ /    </div>
+<div>                /|\</div>
+<div>               / | \
+                          
+         </pre> 
+         <script>
+            const highlightElement = document.querySelector('.highlight');
+            let toggle = true;
+
+            function updateHeart() {
+                highlightElement.textContent = toggle ? '-' : 'O';
+                toggle = !toggle;
+            }
+            setInterval(updateHeart, 750);
+
+         </script>
+    </div>
+</body>
+</html>
